@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: statistics-service
+  data:
+    mongodb:
+      uri: mongodb://localhost:27017/statistics_app
+
+server:
+  port: 7404
+  servlet:
+    context-path: /v1
+
+jwt:
+  secret: 21321380832109823092382193213==132==sd=a=dsaaiasjwiqjdsakkskdawl
